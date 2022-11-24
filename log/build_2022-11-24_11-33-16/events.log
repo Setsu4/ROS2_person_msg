@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.000379] (person_msg) JobQueued: {'identifier': 'person_msg', 'dependencies': OrderedDict()}
+[0.001435] (person_msg) JobStarted: {'identifier': 'person_msg'}
+[0.007032] (person_msg) JobProgress: {'identifier': 'person_msg', 'progress': 'cmake'}
+[0.007504] (person_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/setsu/ros2_ws/src/person_msg', '-DCMAKE_INSTALL_PREFIX=/home/setsu/ros2_ws/src/person_msg/install/person_msg'], 'cwd': '/home/setsu/ros2_ws/src/person_msg/build/person_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'setsu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/setsu'), ('OLDPWD', '/home/setsu/ros2_ws/src/person_msg/msg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/setsu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'setsu'), ('NAME', 'SETSU-LAPTOP01'), ('WSL_INTEROP', '/run/WSL/10_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Apple/Apple Application Support:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/setsu/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2022/bin/win32:/mnt/c/Users/setsu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/setsu/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/setsu/ros2_ws/src/person_msg/build/person_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/setsu/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/setsu/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.016398] (person_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099365] (-) TimerEvent: {}
+[0.101825] (person_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.102799] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.104343] (person_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.179631] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199658] (-) TimerEvent: {}
+[0.300032] (-) TimerEvent: {}
+[0.351370] (person_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400234] (-) TimerEvent: {}
+[0.474946] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500464] (-) TimerEvent: {}
+[0.600821] (-) TimerEvent: {}
+[0.624184] (person_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.689387] (person_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[0.692081] (person_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.701082] (-) TimerEvent: {}
+[0.801332] (-) TimerEvent: {}
+[0.861399] (person_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[0.861587] (person_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.861631] (person_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.861669] (person_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.875331] (person_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.901455] (-) TimerEvent: {}
+[0.918164] (person_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.944507] (person_msg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.944892] (person_msg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_generator_c>;$<BUILD_INTERFACE:/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_typesupport_introspection_cpp>;/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_generator_c;/home/setsu/ros2_ws/src/person_msg/build/person_msg/rosidl_generator_py\n'}
+[0.944976] (person_msg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.946073] (person_msg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.947295] (person_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.948444] (person_msg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.951768] (person_msg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.951846] (person_msg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.952944] (person_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.955474] (person_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.970703] (person_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.971974] (person_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/setsu/ros2_ws/src/person_msg/build/person_msg\n'}
+[0.976595] (person_msg) CommandEnded: {'returncode': 0}
+[0.977909] (person_msg) JobProgress: {'identifier': 'person_msg', 'progress': 'build'}
+[0.977983] (person_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/setsu/ros2_ws/src/person_msg/build/person_msg', '--', '-j8', '-l8'], 'cwd': '/home/setsu/ros2_ws/src/person_msg/build/person_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'setsu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/setsu'), ('OLDPWD', '/home/setsu/ros2_ws/src/person_msg/msg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/setsu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'setsu'), ('NAME', 'SETSU-LAPTOP01'), ('WSL_INTEROP', '/run/WSL/10_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Apple/Apple Application Support:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/setsu/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2022/bin/win32:/mnt/c/Users/setsu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/setsu/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/setsu/ros2_ws/src/person_msg/build/person_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/setsu/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/setsu/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.998166] (person_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.001581] (-) TimerEvent: {}
+[1.004499] (person_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.010845] (person_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_person_msg\n'}
+[1.101786] (-) TimerEvent: {}
+[1.177038] (person_msg) StdoutLine: {'line': b'running egg_info\n'}
+[1.177601] (person_msg) StdoutLine: {'line': b'creating person_msg.egg-info\n'}
+[1.177793] (person_msg) StdoutLine: {'line': b'writing person_msg.egg-info/PKG-INFO\n'}
+[1.178063] (person_msg) StdoutLine: {'line': b'writing dependency_links to person_msg.egg-info/dependency_links.txt\n'}
+[1.178245] (person_msg) StdoutLine: {'line': b'writing top-level names to person_msg.egg-info/top_level.txt\n'}
+[1.178455] (person_msg) StdoutLine: {'line': b"writing manifest file 'person_msg.egg-info/SOURCES.txt'\n"}
+[1.179868] (person_msg) StdoutLine: {'line': b"reading manifest file 'person_msg.egg-info/SOURCES.txt'\n"}
+[1.180129] (person_msg) StdoutLine: {'line': b"writing manifest file 'person_msg.egg-info/SOURCES.txt'\n"}
+[1.189346] (person_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/person_msg__rosidl_generator_c.dir/rosidl_generator_c/person_msg/msg/detail/person__functions.c.o\x1b[0m\n'}
+[1.190731] (person_msg) StdoutLine: {'line': b'[  9%] Built target person_msg__cpp\n'}
+[1.196887] (person_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.197209] (person_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.197329] (person_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.201917] (-) TimerEvent: {}
+[1.203016] (person_msg) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_person_msg_egg\n'}
+[1.255046] (person_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libperson_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.302059] (-) TimerEvent: {}
+[1.313852] (person_msg) StdoutLine: {'line': b'[ 22%] Built target person_msg__rosidl_generator_c\n'}
+[1.319227] (person_msg) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.319765] (person_msg) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.320650] (person_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.402178] (-) TimerEvent: {}
+[1.406412] (person_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/person_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/person_msg/msg/detail/dds_fastrtps/person__type_support.cpp.o\x1b[0m\n'}
+[1.411518] (person_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/person_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/person_msg/msg/person__type_support.cpp.o\x1b[0m\n'}
+[1.448227] (person_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/person_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/person_msg/msg/detail/person__type_support.cpp.o\x1b[0m\n'}
+[1.502302] (-) TimerEvent: {}
+[1.553059] (person_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/person_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/person_msg/msg/person__type_support.cpp.o\x1b[0m\n'}
+[1.553359] (person_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/person_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/person_msg/msg/detail/person__type_support_c.cpp.o\x1b[0m\n'}
+[1.560025] (person_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/person_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/person_msg/msg/detail/person__type_support.c.o\x1b[0m\n'}
+[1.581337] (person_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.588813] (person_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libperson_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.602481] (-) TimerEvent: {}
+[1.666968] (person_msg) StdoutLine: {'line': b'[ 58%] Built target person_msg__rosidl_typesupport_introspection_c\n'}
+[1.673093] (person_msg) StdoutLine: {'line': b'[ 58%] Built target person_msg__rosidl_typesupport_c\n'}
+[1.702345] (person_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.702490] (-) TimerEvent: {}
+[1.766641] (person_msg) StdoutLine: {'line': b'[ 61%] Built target person_msg__rosidl_typesupport_cpp\n'}
+[1.796819] (person_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.802647] (-) TimerEvent: {}
+[1.811617] (person_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.838036] (person_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libperson_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.902877] (-) TimerEvent: {}
+[1.903725] (person_msg) StdoutLine: {'line': b'[ 70%] Built target person_msg__rosidl_typesupport_introspection_cpp\n'}
+[1.907975] (person_msg) StdoutLine: {'line': b'[ 70%] Built target person_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[1.924524] (person_msg) StdoutLine: {'line': b'[ 70%] Built target person_msg__rosidl_typesupport_fastrtps_c\n'}
+[1.934757] (person_msg) StdoutLine: {'line': b'[ 70%] Built target person_msg\n'}
+[1.945246] (person_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.003063] (-) TimerEvent: {}
+[2.103412] (-) TimerEvent: {}
+[2.177722] (person_msg) StdoutLine: {'line': b'[ 74%] Built target person_msg__py\n'}
+[2.187843] (person_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/person_msg__rosidl_generator_py.dir/rosidl_generator_py/person_msg/msg/_person_s.c.o\x1b[0m\n'}
+[2.203573] (-) TimerEvent: {}
+[2.303978] (-) TimerEvent: {}
+[2.310290] (person_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msg/libperson_msg__rosidl_generator_py.so\x1b[0m\n'}
+[2.365611] (person_msg) StdoutLine: {'line': b'[ 80%] Built target person_msg__rosidl_generator_py\n'}
+[2.377017] (person_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/person_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/person_msg/_person_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.377239] (person_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/person_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/person_msg/_person_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.377354] (person_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/person_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/person_msg/_person_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.404209] (-) TimerEvent: {}
+[2.436507] (person_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msg/person_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.439089] (person_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msg/person_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.439945] (person_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/person_msg/person_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.486336] (person_msg) StdoutLine: {'line': b'[100%] Built target person_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.486557] (person_msg) StdoutLine: {'line': b'[100%] Built target person_msg__rosidl_typesupport_c__pyext\n'}
+[2.486623] (person_msg) StdoutLine: {'line': b'[100%] Built target person_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[2.493143] (person_msg) CommandEnded: {'returncode': 0}
+[2.504314] (-) TimerEvent: {}
+[2.529047] (person_msg) JobProgress: {'identifier': 'person_msg', 'progress': 'install'}
+[2.533736] (person_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/setsu/ros2_ws/src/person_msg/build/person_msg'], 'cwd': '/home/setsu/ros2_ws/src/person_msg/build/person_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'setsu'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/setsu'), ('OLDPWD', '/home/setsu/ros2_ws/src/person_msg/msg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('COLCON_PREFIX_PATH', '/home/setsu/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'setsu'), ('NAME', 'SETSU-LAPTOP01'), ('WSL_INTEROP', '/run/WSL/10_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Apple/Apple Application Support:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/MATLAB/R2022a/bin:/mnt/c/Users/setsu/AppData/Local/Microsoft/WindowsApps:/mnt/c/texlive/2022/bin/win32:/mnt/c/Users/setsu/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('LANG', 'ja_JP.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/setsu/ros2_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/setsu/ros2_ws/src/person_msg/build/person_msg'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/setsu/ros2_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/home/setsu/ros2_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[2.537772] (person_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.538006] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/ament_index/resource_index/rosidl_interfaces/person_msg\n'}
+[2.538275] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg\n'}
+[2.538520] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg\n'}
+[2.538645] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/person.h\n'}
+[2.538745] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.538943] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail\n'}
+[2.539097] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__functions.c\n'}
+[2.539187] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__type_support.h\n'}
+[2.539360] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__functions.h\n'}
+[2.539509] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__struct.h\n'}
+[2.539601] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/library_path.sh\n'}
+[2.539692] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/library_path.dsv\n'}
+[2.539812] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_generator_c.so\n'}
+[2.539937] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_generator_c.so" to ""\n'}
+[2.540009] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg\n'}
+[2.540063] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg\n'}
+[2.540106] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.540164] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail\n'}
+[2.540205] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__rosidl_typesupport_fastrtps_c.h\n'}
+[2.540367] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[2.540443] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.540494] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg\n'}
+[2.540567] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg\n'}
+[2.540620] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.540728] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail\n'}
+[2.540866] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__type_support.c\n'}
+[2.540961] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__rosidl_typesupport_introspection_c.h\n'}
+[2.541121] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_introspection_c.so\n'}
+[2.541186] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.541226] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_c.so\n'}
+[2.541263] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_c.so" to ""\n'}
+[2.541343] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg\n'}
+[2.541449] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg\n'}
+[2.541550] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/person.hpp\n'}
+[2.541667] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail\n'}
+[2.541745] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__builder.hpp\n'}
+[2.541856] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__traits.hpp\n'}
+[2.541934] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__struct.hpp\n'}
+[2.541979] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg\n'}
+[2.542083] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg\n'}
+[2.542139] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.542230] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail\n'}
+[2.542286] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/dds_fastrtps\n'}
+[2.542467] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.542587] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.542689] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.542792] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg\n'}
+[2.542999] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg\n'}
+[2.543123] (person_msg) StdoutLine: {'line': b'-- Up-to-date: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail\n'}
+[2.543227] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.543330] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/include/person_msg/person_msg/msg/detail/person__type_support.cpp\n'}
+[2.543538] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[2.543603] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.543642] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_cpp.so\n'}
+[2.543677] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[2.543712] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/pythonpath.sh\n'}
+[2.543747] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/pythonpath.dsv\n'}
+[2.543781] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg-0.0.0-py3.10.egg-info\n'}
+[2.543816] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.543849] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.543900] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.543956] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.544002] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg\n'}
+[2.544047] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/_person_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.544083] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/_person_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.544118] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/_person_msg_s.ep.rosidl_typesupport_c.c\n'}
+[2.544152] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/msg\n'}
+[2.544186] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/msg/_person.py\n'}
+[2.544220] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/msg/_person_s.c\n'}
+[2.544262] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/msg/__init__.py\n'}
+[2.544295] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.544329] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.544363] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.544396] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/libperson_msg__rosidl_generator_py.so\n'}
+[2.544430] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/__init__.py\n'}
+[2.566345] (person_msg) StdoutLine: {'line': b"Listing '/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg'...\n"}
+[2.566465] (person_msg) StdoutLine: {'line': b"Compiling '/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/__init__.py'...\n"}
+[2.566503] (person_msg) StdoutLine: {'line': b"Listing '/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/msg'...\n"}
+[2.566538] (person_msg) StdoutLine: {'line': b"Compiling '/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/msg/__init__.py'...\n"}
+[2.566570] (person_msg) StdoutLine: {'line': b"Compiling '/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/msg/_person.py'...\n"}
+[2.569298] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.569433] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.569638] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.569768] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.569858] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.570008] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/local/lib/python3.10/dist-packages/person_msg/person_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.570185] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_generator_py.so\n'}
+[2.570417] (person_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/setsu/ros2_ws/src/person_msg/install/person_msg/lib/libperson_msg__rosidl_generator_py.so" to ""\n'}
+[2.570571] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/msg/Person.idl\n'}
+[2.570645] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/msg/Person.msg\n'}
+[2.570743] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/ament_index/resource_index/package_run_dependencies/person_msg\n'}
+[2.570920] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/ament_index/resource_index/parent_prefix_path/person_msg\n'}
+[2.571132] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/ament_prefix_path.sh\n'}
+[2.571215] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/ament_prefix_path.dsv\n'}
+[2.571275] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/path.sh\n'}
+[2.571335] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/environment/path.dsv\n'}
+[2.571522] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/local_setup.bash\n'}
+[2.571582] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/local_setup.sh\n'}
+[2.571706] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/local_setup.zsh\n'}
+[2.571825] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/local_setup.dsv\n'}
+[2.571999] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/package.dsv\n'}
+[2.572111] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/ament_index/resource_index/packages/person_msg\n'}
+[2.572319] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_generator_cExport.cmake\n'}
+[2.572407] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.572512] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.572638] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.572873] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.572966] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.573100] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_cExport.cmake\n'}
+[2.573242] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.573411] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_generator_cppExport.cmake\n'}
+[2.573549] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.573880] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.574001] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.574120] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.574224] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_cppExport.cmake\n'}
+[2.574343] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.574433] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_generator_pyExport.cmake\n'}
+[2.574546] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/export_person_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.574654] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[2.574770] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.574958] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.575004] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.575039] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.575075] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.575110] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.575145] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msgConfig.cmake\n'}
+[2.575186] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/cmake/person_msgConfig-version.cmake\n'}
+[2.575221] (person_msg) StdoutLine: {'line': b'-- Installing: /home/setsu/ros2_ws/src/person_msg/install/person_msg/share/person_msg/package.xml\n'}
+[2.576808] (person_msg) CommandEnded: {'returncode': 0}
+[2.604483] (-) TimerEvent: {}
+[2.631291] (person_msg) JobEnded: {'identifier': 'person_msg', 'rc': 0}
+[2.632354] (-) EventReactorShutdown: {}
